@@ -4,7 +4,7 @@
   "description": "Production-grade Strimzi Kafka Management Plugin for Headlamp",
   "main": "dist/index.js",
   "scripts": {
-    "build": "headlamp-plugin build",
+    "build": "headlamp-plugin build && cp index.html dist/index.html",
     "start": "headlamp-plugin start",
     "lint": "eslint src --ext .ts,.tsx",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
@@ -21,9 +21,9 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp.git"
+    "url": "https://github.com/Dev10-sys/headlamp-strimzi-insight.git"
   },
-  "homepage": "https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp#readme",
+  "homepage": "https://github.com/Dev10-sys/headlamp-strimzi-insight#readme",
   "dependencies": {
     "@kinvolk/headlamp-plugin": "^0.7.0",
     "@material-ui/core": "^4.12.3",

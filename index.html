@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strimzi Insight - Headlamp Plugin</title>
+    <style>
+      :root {
+        --primary: #0070f3;
+        --bg: #000;
+        --text: #fff;
+        --accent: #333;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+          sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+      .container {
+        max-width: 800px;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(90deg, #fff, #888);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      p {
+        font-size: 1.25rem;
+        color: #888;
+        line-height: 1.6;
+      }
+      .badges {
+        margin: 2rem 0;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .cta {
+        margin-top: 2rem;
+      }
+      .button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        background: var(--primary);
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: opacity 0.2s;
+      }
+      .button:hover {
+        opacity: 0.8;
+      }
+      .secondary-button {
+        background: transparent;
+        border: 1px solid var(--accent);
+        color: var(--text);
+        margin-left: 10px;
+      }
+      .secondary-button:hover {
+        background: var(--accent);
+      }
+      footer {
+        position: absolute;
+        bottom: 2rem;
+        color: #444;
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Strimzi Insight</h1>
+      <p>
+        Production-grade Strimzi Kafka Management Plugin for Headlamp. <br />
+        Transform raw CRDs into a structured, SRE-focused control plane.
+      </p>
+
+      <div class="badges">
+        <img
+          src="https://github.com/Dev10-sys/headlamp-strimzi-insight/actions/workflows/deploy.yml/badge.svg"
+          alt="CI"
+        />
+        <img
+          src="https://img.shields.io/github/v/release/Dev10-sys/headlamp-strimzi-insight"
+          alt="Version"
+        />
+        <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License" />
+      </div>
+
+      <div class="cta">
+        <a href="https://github.com/Dev10-sys/headlamp-strimzi-insight" class="button"
+          >View on GitHub</a
+        >
+        <a
+          href="https://github.com/Dev10-sys/headlamp-strimzi-insight/releases"
+          class="button secondary-button"
+          >Download Plugin</a
+        >
+      </div>
+    </div>
+
+    <footer>Developed by Antigravity AI &middot; Licensed under Apache-2.0</footer>
+  </body>
+</html>

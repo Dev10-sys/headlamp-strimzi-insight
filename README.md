@@ -1,9 +1,9 @@
-# Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp
+# Strimzi Insight - Headlamp Plugin
 
-[![CI](https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp/actions/workflows/deploy.yml/badge.svg)](https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp/actions/workflows/deploy.yml)
-[![Version](https://img.shields.io/github/v/release/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp)](https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp/releases)
+[![CI](https://github.com/Dev10-sys/headlamp-strimzi-insight/actions/workflows/deploy.yml/badge.svg)](https://github.com/Dev10-sys/headlamp-strimzi-insight/actions/workflows/deploy.yml)
+[![Version](https://img.shields.io/github/v/release/Dev10-sys/headlamp-strimzi-insight)](https://github.com/Dev10-sys/headlamp-strimzi-insight/releases)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Deployment](https://img.shields.io/badge/Vercel-Deployed-success?logo=vercel)](https://strimzi-insight-advanced-kafka-oper.vercel.app)
+[![Deployment](https://img.shields.io/badge/Vercel-Deployed-success?logo=vercel)](https://headlamp-strimzi-insight.vercel.app)
 
 Strimzi Insight is a production-grade [Headlamp](https://kinvolk.github.io/headlamp/) plugin designed for deep visualization and operational management of Strimzi-managed Kafka clusters on Kubernetes. It transforms raw Custom Resource Definitions (CRDs) into a structured, SRE-focused control plane.
 
@@ -27,7 +27,7 @@ Strimzi Insight is a production-grade [Headlamp](https://kinvolk.github.io/headl
 
 1. Clone this repository into your Headlamp plugins directory or any local folder:
    ```bash
-   git clone https://github.com/Dev10-sys/Strimzi-Insight-Advanced-Kafka-Operations-UI-for-Headlamp.git
+   git clone https://github.com/Dev10-sys/headlamp-strimzi-insight.git
    ```
 2. Build the plugin:
    ```bash
